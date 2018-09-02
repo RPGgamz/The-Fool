@@ -225,7 +225,7 @@ if (state = "chase") {
             <string>///spawn damage
 damage = instance_create (x - image_xscale*range, y, obj_dmg);
 with (damage) {
-    image_xscale = 14/32
+    image_xscale = 16/32
     image_yscale = 7/32
 }
 alarm[0] = 1/image_speed * (image_number-image_index/*-1*/);

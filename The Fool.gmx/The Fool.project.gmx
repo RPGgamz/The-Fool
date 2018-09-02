@@ -43,9 +43,13 @@
     <sprite>sprites\spr_teleporter</sprite>
   </sprites>
   <backgrounds name="background">
+    <background>background\bg_level_0</background>
     <background>background\bg_level_1</background>
     <background>background\bg_level_1_forest</background>
     <background>background\bg_knight</background>
+    <background>background\bg_teleport</background>
+    <background>background\bg_level_2</background>
+    <background>background\bg_level_3</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -65,7 +69,11 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
+    <room>rooms\rm_intro</room>
+    <room>rooms\rm_level_0</room>
     <room>rooms\rm_level_1</room>
+    <room>rooms\rm_level_2</room>
+    <room>rooms\rm_level_3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
