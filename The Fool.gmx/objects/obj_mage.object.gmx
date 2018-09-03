@@ -230,6 +230,7 @@ if (state == "attack") {
         alarm[10] = 1;
         
         audio_sound_gain(sound, 0, 60*10);
+        
         //audio_play_sound(snd_ball_continue, 1, true);
     } else {
         state = "stand";
