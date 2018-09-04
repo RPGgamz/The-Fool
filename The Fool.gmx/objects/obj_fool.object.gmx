@@ -41,6 +41,10 @@ laser = noone;
 image_speed = img_spd_run;
 dx = 0;
 dy = 0;
+
+last_dx = spd;
+last_dy = 0;
+
 x_pos = x;
 y_pos = y;
 state = "run";
